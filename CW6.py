@@ -57,11 +57,11 @@
 
     #5.  Написати функцію, яка обчислює суму цифр введеного числа.
 
-# def suma(chuslo):
-#     print('Cума цифр числа:', sum(map(int, list(chuslo))))
+def suma(chuslo):
+    print('Cума цифр числа:', sum(map(int, list(chuslo))))
 
-# g = input('Введіть число:')
-# suma(g)
+g = input('Введіть число:')
+suma(g)
 
 
     # 6.  Написати програму калькулятор, яка складається з наступних функцій: 
@@ -91,6 +91,7 @@
 #         else:
 #             return golovna()
 
+
 # def golovna():
 #     print('Введіть: Додавання - 1/Віднімання - 2/Вихід - 3:')
 #     n = input()
@@ -112,13 +113,14 @@
     # введеного користувачем.
 
     
-# def my_fibonacci(n):
-#     if n in (1,2):
+# def my_fib(n):
+#     if i < 3:
 #         return 1
 #     return my_fibonacci(n-1) + my_fibonacci(n-2)
 # a = int(input('Введіть число:'))
-# print(my_fibonacci(a))
 
+# for i in range(1, n+1):
+#     print(fib(i))
 
  #8.  Написати програму, яка обчислює дискримінант квадратного рівняння
 
