@@ -1,6 +1,13 @@
-def correct_tail(body, tail):
-        if body[-1:] == tail:
-            return True
-        else:
-            return False
-print(correct_tail("Fox", "x"))
+def count_positives_sum_negatives(arr):
+    i=1
+    for i in arr:
+        while i>0:
+            return [i]
+    if arr = []:
+    print("list is empty")
+            
+print(count_positives_sum_negatives([5, 6, -9]))
+# for j in [0, 1, 2, 3, 4]:
+#     print([j])
+if arr = []:
+    print("list is empty")
