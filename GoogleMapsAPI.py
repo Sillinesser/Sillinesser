@@ -5,7 +5,7 @@ import json
 
 def whatSpeed(a,b):
 
-    marsh1 = 'https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins='+a+'&destinations='+b+'&key=AIzaSyBF85A_o0LYQCsjYVML5Zg3OLOFcm0RsaU'
+    marsh1 = 'https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins='+a+'&destinations='+b+'&key=<API_KEY>'
 
     info_marsh1 = json.loads(urllib.request.urlopen(marsh1).read())      #результат запиту про маршрут з а1 до b1
 
